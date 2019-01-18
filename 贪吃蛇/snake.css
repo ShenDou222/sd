@@ -1,0 +1,37 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#show{
+	height: 500px;
+	width: 500px;
+	position: relative;
+	background: black;
+	margin:0 auto;
+	margin-top:50px;
+}
+.snake{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	border-radius: 10px;
+}
+.head{
+	background-image: url(蛇头.gif);
+	background-size: 100%;
+}
+.color0{
+	background-color: gold;
+}
+.color1{
+	background-color: purple;
+}
+.color2{
+	background-color: orange;
+}
+.food{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	background-color: green;
+}
